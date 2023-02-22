@@ -68,21 +68,11 @@ display: block;
 /*estilo section*/
 section{
 	display: flex;
-	width: 600px;
-	height: 430px;
+	justify-content:center;
 }
 section img{
-	width: 0px;
-	flex-grow: 1;
-	object-fit: cover;
-	opacity: .8;
-	transition: .5s ease;
-}
-section img :hover{
-	cursor: crosshair;
 	width: 300px;
-	opacity: 1;
-	filter: contrast(120%);
+	height: 300px;
 }
 /*estilo del footer*/
 h4{
@@ -130,6 +120,11 @@ text-align-last: center;
 
 body #tutoriales-uno{	
 	font-family: 'Anton', sans-serif;
+}
+@media screen and(min-width: 320px) and(max-width: 1200px){
+	body{
+		display: flex;
+	}
 }
 
 
