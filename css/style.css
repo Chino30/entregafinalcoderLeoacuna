@@ -1,137 +1,71 @@
-*{
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-}
-/*index principal*/
-body{ 
-background-color:#B6DFDA; 
-	font-family: 'Anton', sans-serif;
-	color:#0F5048 ;
-}
-/*estilo del header*/
-.menu{
-	background:#5FDCCD;
-	width: 100%;
-	clear: both;
-	content: '';
-	display: table;
-}
-img{
-	width: 120px;
-	height: 100px;
-	float: left;
-	padding: 8px;
-}
-nav{
-	float:none;
-}
-nav ul li {
-	 list-style: none;
-	 text-decoration: none;
-	 margin-left: 100px;
-	 padding: 12px 0;
-	 float: left;
-	 position: relative;
-}
-nav ul li a{
-	text-decoration: none;
-	color: black;
-	font-weight: bold;
-}
-nav ul li a ::before{
-	width: 100%;
-	background:#5BC384 ;
-}
-/*estilo del main*/
-main{
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-}
-h1,h2,h3,h4{
-	color: pink;
-	text-shadow: 2px 2px 5px black;
-	text-decoration: underline;
-}
-main h1 span{
-display: block;
-}
-.casa1{
-	text-align: center;
-	text-decoration: underline;
-	}
-.casa2{
-	text-align: center;
-	text-decoration: underline;
-}
-/*estilo section*/
-section{
-	display: flex;
-	width: 600px;
-	height: 430px;
-}
-section img{
-	width: 0px;
-	flex-grow: 1;
-	object-fit: cover;
-	opacity: .8;
-	transition: .5s ease;
-}
-section img :hover{
-	cursor: crosshair;
-	width: 300px;
-	opacity: 1;
-	filter: contrast(120%);
-}
-/*estilo del footer*/
-h4{
-	text-align: center;
-	color: pink;
-	text-shadow: 2px 2px 5px black;
-	border: 50px; 
-	padding: 20px;
-}
-#page2{
-	list-style: none;
-	text-align: center;
-	text-decoration: none;
-	color: pink;
-	align-items: center;
-	justify-content: space-around;
-	font-size: 0,5rem;
-	text-shadow: 2px 2px 5px black;
-}
-/*estilo del header*/
-.caja1{
-	background-color: blue;
-}
-/*estilo del main*/
-.araña1{
-	text-align-last: center;
-	background-color: #DAFF79;
-	padding: 10px;
-	border-radius: 400px;
-}
-body.caja{
-	background-image: url(img/pexels.jpg);
-	font-family: 'Anton', sans-serif;
-}
-.araña3{
-text-align-last: center;
-}
-.araña4{
-	text-align-last: center;
-	list-style: none;
-	}
-/*estilos de footer*/
-
-/* Tutoriales*/
-
-body #tutoriales-uno{	
-	font-family: 'Anton', sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
+.menu {
+  background: #5fdccd;
+  width: 100%;
+  clear: both;
+  content: "";
+  display: table;
+}
+.menu nav {
+  float: none;
+}
+.menu nav ul li {
+  list-style: none;
+  text-decoration: none;
+  margin-left: 100px;
+  padding: 12px 0;
+  float: left;
+  position: relative;
+}
+.menu nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+.menu nav ul li a:before {
+  width: 100%;
+  background: #5bc384;
+}
 
+/*estilo de main*/
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main h1 spam {
+  display: block;
+}
 
-	
+/*texto*/
+h1, h2, h3, h4 {
+  color: pink;
+  text-shadow: 2px 2px 5px black;
+  text-decoration: underline;
+}
+
+/*section*/
+section {
+  display: flex;
+  justify-content: center;
+}
+section img {
+  width: 300px;
+  height: 300px;
+}
+
+/*footer*/
+h4 {
+  text-align: center;
+  color: pink;
+  text-shadow: 2px 2px 5px black;
+  border: 50px;
+  padding: 20px;
+}
+
+/*# sourceMappingURL=style.css.map */
