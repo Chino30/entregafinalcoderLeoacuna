@@ -3,6 +3,12 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  background-color: #b6dfda;
+  font-family: "Anton", sans-serif;
+}
+
 .menu {
   background: #5fdccd;
   width: 100%;
@@ -65,11 +71,6 @@ h4 {
   text-shadow: 2px 2px 5px black;
   border: 50px;
   padding: 20px;
-}
-@media screen and(min-width: 320px) and(max-width: 1200px){
-	body{
-		display: flex;
-	}
 }
 
 /*# sourceMappingURL=style.css.map */

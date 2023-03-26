@@ -1,7 +1,12 @@
+ @import 'variables.scss';
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+body{
+    background-color: $color_fondo;
+    font-family: $font_f;
 }
 .menu{
     background: #5fdccd;
