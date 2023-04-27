@@ -1,0 +1,73 @@
+ @import 'variables.scss';
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: $color_fondo;
+    font-family: $font_f;
+}
+.menu{
+    background: #5fdccd;
+    width: 100%;
+    clear: both;
+    content: '';
+    display: table;
+    nav{
+        float: none;
+        ul{
+            li{
+                list-style: none;
+                text-decoration: none;
+                margin-left: 100px;
+                padding: 12px 0;
+                float: left;
+                position: relative;
+                a{
+                    text-decoration: none;
+                    color: black;
+                    font-weight: bold;
+                    &:before{
+                        width: 100%;
+                        background: #5bc384;
+                    }
+                }
+            }
+        }
+    }
+}
+/*estilo de main*/
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h1{
+        spam{
+            display: block;
+        }
+    }
+}
+/*texto*/
+h1,h2,h3,h4{
+    color: pink;
+    text-shadow: 2px 2px 5px black;
+    text-decoration: underline;
+}
+/*section*/
+section{
+    display: flex;
+    justify-content: center;
+    img{
+        width: 300px;
+        height: 300px;
+      }
+}
+/*footer*/
+h4{
+    text-align: center;
+    color: pink;
+    text-shadow: 2px 2px 5px black;
+    border: 50px;
+    padding: 20px;
+}
